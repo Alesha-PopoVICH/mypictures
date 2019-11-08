@@ -4,7 +4,8 @@ import math
 def square (x, y, size, color, angle)
 turtle.goto(x,y)
 turtle.left(angle)
-turtlr.pendown()
+turtle.pendown()
+turtle.pencolor(color)
 turtle.left(angle)
 turtle.forward(size)
 turtle.left(90)
@@ -14,6 +15,7 @@ turtle.forward(size)
 turtle.left(90)
 turtle.forward(size)
 turtle.left(90)
+fillcolor(color)
 turtle.penup()
 pass
 
