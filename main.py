@@ -3,13 +3,14 @@ t = turtle.Turtle()
 t.shape('turtle')
 
 t.speed(10)
-
-for i in range(180):
-    t.forward(100)
-    t.right(30)
-    t.forward(20)
-    t.left(60)
+turtle.Screen().bgcolor("blue")
+t.color("white")
+for x in range(180):
     t.forward(50)
+    t.right(30)
+    t.forward(10)
+    t.left(60)
+    t.forward(25)
     t.right(30)
     
     t.penup()
@@ -17,7 +18,62 @@ for i in range(180):
     t.pendown()
     
     t.right(2)
-    
+t.forward(50)
+t.left(60)
+t.forward(50)
+t.color("cyan")
+for x in range(10):
+    for x in range(2):
+        t.forward(50)
+        t.right(60)
+        t.forward(50)
+        t.right(120)
+    t.right(36)
+t.left(36)
+t.setposition(0,0)
+t.color("white")
+t.right(90)
+t.forward(50)
+t.right(60)
+t.forward(50)
+t.color("cyan")
+for x in range(10):
+    for x in range(2):
+        t.forward(50)
+        t.right(60)
+        t.forward(50)
+        t.right(120)
+    t.right(36)
+t.left(36)
+t.setposition(0,0)
+t.color("white")
+t.right(90)
+t.forward(50)
+t.right(60)
+t.forward(50)
+t.color("cyan")
+for x in range(10):
+    for x in range(2):
+        t.forward(50)
+        t.right(60)
+        t.forward(50)
+        t.right(120)
+    t.right(36)
+t.left(36)
+t.setposition(0,0)
+t.color("white")
+t.right(90)
+t.forward(50)
+t.left(60)
+t.forward(50)
+t.color("cyan")
+for x in range(10):
+    for x in range(2):
+        t.forward(50)
+        t.right(60)
+        t.forward(50)
+        t.right(120)
+    t.right(36)
+t.left(36)
+t.hideturtle()
 t.done()
-   
-   
