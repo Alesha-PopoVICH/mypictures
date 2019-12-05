@@ -1,13 +1,23 @@
 import turtle
-t = turtle
-f = t.forward
-r = t.right
-t.color('blue')
-t.begin_fill()
-f(70)
-r(135)
-f(100)
-r(135)
-f(70)
-r(135)
-t.end_fill()
+t = turtle.Turtle()
+t.shape('turtle')
+
+t.speed(10)
+
+for i in range(180):
+    t.forward(100)
+    t.right(30)
+    t.forward(20)
+    t.left(60)
+    t.forward(50)
+    t.right(30)
+    
+    t.penup()
+    t.setposition(0, 0)
+    t.pendown()
+    
+    t.right(2)
+    
+t.done()
+   
+   
