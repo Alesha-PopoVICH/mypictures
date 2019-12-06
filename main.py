@@ -24,6 +24,10 @@ def romb(x, y, size, color, angle):
     
 romb(-900, 900, 1350, 'red', 130)
 
+
+
+
+
 from turtle import *
 import random as r
 t = Turtle()
