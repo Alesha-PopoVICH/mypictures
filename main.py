@@ -23,10 +23,9 @@ pass
 
 turtle.penup()
 turtle.goto(35, 35)
-turtle.right(90) # Повернуть курсор на 90 градусов вправо
+turtle.right(90) 
 turtle.pendown()
-turtle.forward(70) # Пройти вперед расстояние 70, если курсор опущен, то будет нарисована линия по пути слоедования
-
+turtle.forward(70)
 turtle.right(90)
 turtle.forward(70)
 
@@ -45,17 +44,17 @@ turtle.forward(70)
 turtle.left(90)
 turtle.forward(70)
 
-turtle.left(135) # Повернуть курсор влево на 135 градусов
+turtle.left(135) 
 turtle.forward(100)
 
 turtle.done()
 
 
-turtle.color("blue") # Устанавливаем цвет черепашки
-turtle.penup() # Поднимаем курсор
-turtle.goto(-110, -25) # Переходим по нужным координатам
-turtle.pendown() # Опускаем курсор
-turtle.circle(45) # Рисуем круг с радиусом 45
+turtle.color("blue") 
+turtle.penup() 
+turtle.goto(-110, -25) 
+turtle.pendown()
+turtle.circle(45) 
 
 turtle.color("black")
 turtle.penup()
@@ -85,7 +84,7 @@ turtle.color("black")
 turtle.penup()
 turtle.goto(0, 80)
 turtle.pendown()
-turtle.write("Olympic Symbol") # Вместо еще одного круга выводим надпись "Olympic Symbol"
+turtle.write("Olympic Symbol") 
 
 turtle.done()
 
